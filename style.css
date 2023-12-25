@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: var(--primary-color);
+}
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+   
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+.container{
+    background: var(--primary-color);
+}
+#icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: var(--secondary-color);
+    /* background: transparent; */
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 70px;
+    align-items: center;
+    /* background-color: var(--primary-color); */
+}
+.logo{
+    text-decoration: none;
+    color: orangered
+    ;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    padding: 0 20px;
+    text-align: right;
+    /* align-items: right; */
+}
+
+.navbar li{
+    padding: 0 18px;
+    
+    list-style: none;
+    
+}
+.navbar li a{
+    color: var(--secondary-color); 
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: orangered; 
+   
+}
+.navbar .home-active{
+    color: orangered;
+}
+
+
+.home{
+    display: flex;
+    margin: 60px 70px;
+    align-items: center;
+}
+ .home-img img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.home-content{
+    margin-right:  100px;
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+}
+.home-content span{
+    color: orangered;
+}
+.home-content p{
+    font-style: inherit;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+.home-content button{
+    outline: none;
+    border: none;
+    background: var(--secondary-color);
+    padding: 7px 12px;
+    color: var(--primary-color);
+    font-size: 12px;
+    border-radius: 5px;
+    
+}
+.home-content button:hover{
+    background: orangered;
+}
+.socials{
+    margin: -110px 50px 0;
+}
+.socials a{
+    color: var(--secondary-color);
+    font-size: 30px;
+    padding: 0 8px;
+}
+.socials a:hover{
+    color: orangered;
+    font-size: 34px;
+
+}
